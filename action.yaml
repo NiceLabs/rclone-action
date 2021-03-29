@@ -1,0 +1,24 @@
+name: Setup Rclone
+description: Unofficial Rclone action
+author: septs
+
+inputs:
+  github-token:
+    description: Provide an allow update secret token
+    default: ${{ github.token }}
+    required: true
+  config:
+    description: Rclone config file
+    required: true
+  config-secret-name:
+    description: Rclone config save to secret name
+    required: false
+
+runs:
+  using: node12
+  main: dist/main/index.js
+  post: dist/post/index.js
+
+branding:
+  icon: shield
+  color: yellow
