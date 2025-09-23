@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@actions/core": "^1.9.1",
-    "@actions/github": "^4.0.0",
+    "@actions/github": "^6.0.1",
     "@actions/io": "^1.0.2",
     "@actions/tool-cache": "^1.6.1",
-    "@octokit/core": "^3.3.1",
+    "@octokit/core": "^7.0.4",
     "tweetsodium": "^0.0.5"
   },
   "devDependencies": {
